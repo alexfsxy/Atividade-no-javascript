@@ -1,0 +1,8 @@
+//Converter o resultado da temperatura em graus Celsius para temperatura em graus Fahrenheit
+
+function celsiusToFahrenheit(celsius){
+    fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+}
+
+console.log(celsiusToFahrenheit(23));
