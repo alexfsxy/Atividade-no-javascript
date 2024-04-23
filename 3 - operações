@@ -1,9 +1,9 @@
- Faça umalgoritmo que leia quatro números inteiros e realize as seguintes operações:
+/* Faça umalgoritmo que leia quatro números inteiros e realize as seguintes operações:
  ● Some25aoprimeirointeiro;
  ● Triplique o valor do segundo inteiro;
  ● Modifiqueovalor do terceiro inteiro para 12% do valor original;
  ● Armazenenoquartointeiro a somadosvalores originais (os que o usuário digitou)
- dos primeiros três inteiros.
+ dos primeiros três inteiros.*/
  
 let num1 = 10;
 let num2 = 20;
