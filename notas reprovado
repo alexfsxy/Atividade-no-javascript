@@ -1,0 +1,19 @@
+ Acrescente ao exercício acima a mensagem ‘Você foi REPROVADO! Estude mais’ caso a
+ média calculada seja menor que 6,0
+
+let nome = "Ferreira "
+
+console.log (nome)
+
+let nota1 = 4
+let nota2 = 4
+let mediaNotas = (nota1 + nota2) / 2
+
+console.log(mediaNotas)
+
+if (mediaNotas >= 6)
+
+console.log('Parabéns! você foi aprovado')
+
+else
+console.log('Você foi Reprovado! Estude mais')
