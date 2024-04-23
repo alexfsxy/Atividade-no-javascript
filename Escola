@@ -1,0 +1,18 @@
+Escreva um algoritmo para ler as notas das duas avaliações de um aluno no semestre,
+ calcular e escrever a média semestral e a seguinte mensagem: ‘PARABÉNS! Você foi
+ aprovado’, somente se o aluno foi aprovado (considere 6.0 a nota mínima para
+ aprovação).
+
+let nome = "Ferreira "
+
+console.log (nome)
+
+let nota1 = 8
+let nota2 = 6
+let mediaNotas = (nota1 + nota2) / 2
+
+console.log(mediaNotas)
+
+if (mediaNotas >= 6)
+
+console.log('Parabéns! você foi aprovado')
