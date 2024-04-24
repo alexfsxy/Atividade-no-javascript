@@ -1,0 +1,8 @@
+/* Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes*/
+function escrever10vezes(){
+    for(var i= 0; i < 10; i++) {
+    console.log(5)
+    } 
+}
+
+escrever10vezes();
