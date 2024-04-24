@@ -1,0 +1,43 @@
+/*  Escreva um algoritmo que leia o código de origem de um produto eimprima aregião
+ do mesmo,conformeatabela abaixo: */
+ const prompt = require('prompt-sync')()
+codigo_origem = parseFloat(prompt("Digite o código de origem: "))
+
+if (codigo_origem == (1)){
+	console.log("codigo_origem: Sul");
+    return;
+    }
+if (codigo_origem == (2)){
+	console.log("codigo_origem: Norte");
+    return;
+    }
+if (codigo_origem == (3)){
+	console.log("codigo_origem: Leste");
+    return;
+    }
+if (codigo_origem == (4)){
+	console.log("codigo_origem: Oeste");
+    return;
+    }
+if (codigo_origem <= (5, 6)){
+	console.log("codigo_origem: Nordeste");
+    return;
+}
+if (codigo_origem <= (7, 8, 9)){
+	console.log("codigo_origem: Sudeste");
+    return;
+}
+if (codigo_origem <= (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)){
+	console.log("codigo_origem: Centro-Oeste");
+    return;
+}
+if (codigo_origem <= (21, 22, 23, 24)){
+    console.log("codigo_origem: Importado");
+    return;
+}
+if (codigo_origem <= (25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50)){
+	console.log("codigo_origem: Nordeste");
+    return;
+}
+
+    console.log("Digite o código de origem: ")
