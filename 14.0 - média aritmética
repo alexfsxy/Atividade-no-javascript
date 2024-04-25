@@ -1,0 +1,25 @@
+/*  Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer
+ amédiaaritmética desses números. */
+
+ const prompt = require('prompt-sync')()
+let n1 = parseInt(prompt('Digite o número 0: '));
+const alunos = [
+	{ aluno: 'Paulo', nota: 6.50},
+	{ aluno: 'Maria', nota: 8.25},
+	{ aluno: 'João', nota: 7.75},
+	{ aluno: 'Isabel', nota: 9.00},
+  ];
+  
+  let index = 0;
+  let somaDasNotas = 0;
+  let totalAlunos = alunos.length;
+  
+  do {
+	somaDasNotas += alunos[index].nota;
+  
+	index++;
+  } while (index < totalAlunos);
+  
+  let media = somaDasNotas / totalAlunos;
+  
+  console.log("Sua media é:",media)
