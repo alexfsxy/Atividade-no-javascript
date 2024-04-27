@@ -1,0 +1,23 @@
+/*  Escreva um algoritmo para imprimir os 50 primeiros número primos maior que 100.
+ Obs.: Número primo é aquele divisível somente por 1 e ele mesmo. */
+
+const numeroPrimos = [];
+let contador = null;
+let primo = 100;
+
+while(contador < 50)
+{
+   let c = 0;
+   for(let i = 1; i <= primo ; i++){
+    if(primo % i === 0)
+        c++;
+    } 
+    if (c===2){
+        contador++;
+        numeroPrimos.push(primo);
+    }
+    primo++;
+}
+
+console.log(`${numeroPrimos}`);
+console.log("São os 50 primeiros número primos acima do 100.")
