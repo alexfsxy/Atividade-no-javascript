@@ -3,8 +3,6 @@ que o usuário digite o número 0. Fazer a média ponderada desses números e pe
 respectivos. */
 
 const prompt = require("prompt-sync")();
-let decimal = parseInt(prompt("Digite um numero decimal: "));
-let importancia = parseInt(prompt("Indique a importancia desse numero: "));
 
 let N = null
 let campoNotas = 1;
@@ -17,9 +15,9 @@ while (campoNotas !== 0 && !isNaN(campoNotas) && !isNaN(campoPeso)) {
 	campoPeso = parseInt(prompt("Indique a importancia desse numero: "));
 
 	somaPesos += campoPeso;
-	totalMedia += campoNotas * campoPeso;
+	totalMedia += campoNotas * campoPeso
 }
  totalMedia /= somaPesos;
 
-console.log("Total Média é");
+ console.log("Total Média é:");
 console.log(totalMedia.toFixed(1))
