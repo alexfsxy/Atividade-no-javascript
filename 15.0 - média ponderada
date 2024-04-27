@@ -4,7 +4,6 @@ respectivos. */
 
 const prompt = require("prompt-sync")();
 
-let N = 1;
 let campoNotas = 1;
 let campoPeso = 1;
 let somaPesos = 0;
