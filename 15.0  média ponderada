@@ -1,0 +1,25 @@
+/* Fazer um algoritmos para receber um número decimal e o peso de cada número até
+que o usuário digite o número 0. Fazer a média ponderada desses números e pesos
+respectivos. */
+
+const prompt = require("prompt-sync")();
+let decimal = parseInt(prompt("Digite um numero decimal: "));
+let importancia = parseInt(prompt("Indique a importancia desse numero: "));
+
+let N = null
+let campoNotas = 1;
+let campoPeso = 1;
+let somaPesos = 0;
+let totalMedia = 0;
+
+while (campoNotas !== 0 && !isNaN(campoNotas) && !isNaN(campoPeso)) {
+	campoNotas = parseInt(prompt("Digite um numero decimal: "));
+	campoPeso = parseInt(prompt("Indique a importancia desse numero: "));
+
+	somaPesos += campoPeso;
+	totalMedia += campoNotas * campoPeso;
+}
+ totalMedia /= somaPesos;
+
+console.log(totalMedia.toFixed(1));
+console.log("Total Media")
