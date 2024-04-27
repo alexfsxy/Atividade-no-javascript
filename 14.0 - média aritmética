@@ -1,23 +1,19 @@
 /*  Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer
  amédiaaritmética desses números. */
 
-const prompt = require("prompt-sync")();
-let numero = parseInt(prompt("Digite um numero: "));
-
-let N = null
-let quantidade = 0;
+let N = null;
+let i= -1;
 let soma = 0;
-let media;
+let media = 0;
 
-while(N !== 0 && !isNaN(N)) {
-	N = parseInt(prompt("Digite um numero: "));
-	N == 0
+while (N !== 0 && !isNaN(N)) {
+	N = parseFloat(prompt("Digite um numero: "));
+	N == 0;
 	soma += N;
-	quantidade++;
+	i++;
+	media = soma/ i
 
-	media = soma / quantidade;
 } 
-
 
 console.log(media.toFixed(1));
 console.log("Sua media é:", media)
